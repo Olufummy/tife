@@ -60,7 +60,11 @@ a {
     transition: var(--transition);
 }
 
-
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
 
 .section {
     padding: 100px 0;
@@ -117,12 +121,6 @@ header {
     }
 }
 
-.couple-image {
-    position: relative;
-    width: 100%;
-    max-width: 500px;
-    margin-bottom: 30px;
-}
 
 @media (min-width: 768px) {
     .couple-image {
