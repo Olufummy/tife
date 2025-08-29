@@ -121,6 +121,12 @@ header {
     }
 }
 
+.couple-image {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
 
 @media (min-width: 768px) {
     .couple-image {
@@ -401,18 +407,17 @@ nav ul li a:hover::after {
     gap: 30px;
 }
 
-@media (min-width: 1024px) {
-  .details-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-
-  .detail-card {
-    flex: 1 1 calc(25% - 30px); /* 4 per row */
-  }
+@media (min-width: 768px) {
+    .details-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
+@media (min-width: 1024px) {
+    .details-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
 
 .detail-card {
     background-color: #fff;
