@@ -60,11 +60,7 @@ a {
     transition: var(--transition);
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    padding: 5px;
-}
+
 
 .section {
     padding: 100px 0;
